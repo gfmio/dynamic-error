@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "alwaysStrict": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": false,
+        "noEmitHelpers": false,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "jsx": "react",
+        "jsxFactory": "h",
+        "typeRoots": [
+            "../../node_modules/@types"
+        ],
+        "lib": [
+            "es6",
+            "es5"
+        ]
+    },
+    "include": [
+        "../../src/**/*"
+    ]
+}

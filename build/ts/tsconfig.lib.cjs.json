@@ -1,0 +1,7 @@
+{
+    "extends": "./tsconfig.lib.common.json",
+    "compilerOptions": {
+        "target": "es3",
+        "outDir": "../../lib/"
+    }
+}
