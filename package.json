@@ -1,6 +1,6 @@
 {
   "name": "dynamic-error",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An extendable dynamic error class",
   "author": "Frédérique Mittelstaedt <frederique@gfm.io>",
   "license": "MIT",
