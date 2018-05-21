@@ -44,9 +44,9 @@
     "docs": "./node_modules/.bin/typedoc --theme default --name \"@service/core documentation\" --tsconfig ./build/ts/tsconfig.lib.es.json --out ./docs ./src",
     "lint": "./node_modules/.bin/tslint -c ./build/ts/tslint.json --project ./build/ts/tsconfig.lib.es.json",
     "prepare": "npm run build",
-    "release-major": "./node_modules/.bin/xyz --repo git@github.com:Automorph/service-core-test.git --increment major",
-    "release-minor": "./node_modules/.bin/xyz --repo git@github.com:Automorph/service-core-test.git --increment minor",
-    "release-patch": "./node_modules/.bin/xyz --repo git@github.com:Automorph/service-core-test.git --increment patch"
+    "release-major": "./node_modules/.bin/xyz --repo git@github.com:gfmio/dynamic-error.git --increment major",
+    "release-minor": "./node_modules/.bin/xyz --repo git@github.com:gfmio/dynamic-error.git --increment minor",
+    "release-patch": "./node_modules/.bin/xyz --repo git@github.com:gfmio/dynamic-error.git --increment patch"
   },
   "devDependencies": {
     "@types/chai": "^4.1.3",
