@@ -2,7 +2,7 @@
 
 **TL/DR: A dynamic error class with support for TypeScript, ES6, and old-style JavaScript supporting even very old browsers.**
 
-This package provides the abstract class `DynamicError`. You can use it define error classes, that compute their error message dynamically from the internal state of the error object. For example, you can define an `InvalidValueError<T>` that takes a `value` argument in its constructor and computes the error message as you wish. It is derived from `ExtendableError` from my `[ts-error](https://github.com/gfmio/ts-error)` package, which enables the proper inheritance hierarchy (subclassing `Error` normally does not work properly in JS).
+This package provides the abstract class `DynamicError`. You can use it define error classes, that compute their error message dynamically from the internal state of the error object. For example, you can define an `InvalidValueError<T>` that takes a `value` argument in its constructor and computes the error message as you wish. It is derived from `ExtendableError` from my [`ts-error`](https://github.com/gfmio/ts-error) package, which enables the proper inheritance hierarchy (subclassing `Error` normally does not work properly in JS).
 
 The package is well-tested, very small and only has one production dependency (ts-error), which itself has no production dependencies.
 
