@@ -4,10 +4,10 @@
   "description": "An extendable dynamic error class",
   "author": "Frédérique Mittelstaedt <frederique@gfm.io>",
   "license": "MIT",
-  "main": "./cjs/index.js",
+  "main": "./lib/index.js",
   "module": "./es/index.js",
-  "browser": "./cjs/index.js",
-  "types": "./types/index.d.ts",
+  "browser": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "homepage": "https://github.com/gfmio/dynamic-error#readme",
   "repository": {
     "type": "git",
